@@ -21,6 +21,7 @@ function mediplus_all_css_js_files(){
     
     wp_enqueue_script('jquery');
     wp_enqueue_script('bootstrap-jquery', get_template_directory_uri().'//cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js');
+    wp_enqueue_script('wow-jquery', get_template_directory_uri().'/assets/lib/owlcarousel/owl.carousel.min.js',array(),'');
 
 
 }
