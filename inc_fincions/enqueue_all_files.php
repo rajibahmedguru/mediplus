@@ -16,6 +16,11 @@ function mediplus_all_css_js_files(){
 
     wp_enqueue_style('tempusdominus-css', get_template_directory_uri().'../assets/css/style.css', array(), '5.1.2', 'all');
 
+    
+    // Add All JS files
+    
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('bootstrap-jquery', get_template_directory_uri().'//cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js');
 
 
 }
