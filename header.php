@@ -1,4 +1,3 @@
-<?php 
 
 <!DOCTYPE html>
 <html lang="<?php language_attributes();?>">
