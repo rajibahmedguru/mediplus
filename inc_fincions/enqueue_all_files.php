@@ -3,10 +3,10 @@
 function mediplus_all_css_js_files(){
 
     wp_enqueue_style('main-stylesheet',get_stylesheet_uri());
-    wp_enqueue_style('bootstrap', get_template_directory_uri().'../assets/css/bootstrap.min.css', array(), '5.0.0', 'all');
-    wp_enqueue_style('animate-css', get_template_directory_uri().'../assets/lib/animate/animate.min.css', array(), '3.5.2', 'all');
-    wp_enqueue_style('owlcarousel-css', get_template_directory_uri().'../assets/lib/owlcarousel/assets/owl.carousel.min.css', array(), '2.2.1', 'all');
-    wp_enqueue_style('tempusdominus-css', get_template_directory_uri().'../assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css', array(), '5.1.2', 'all');
+    wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/css/bootstrap.min.css', array(), '5.0.0', 'all');
+    wp_enqueue_style('animate-css', get_template_directory_uri().'/assets/lib/animate/animate.min.css', array(), '3.5.2', 'all');
+    wp_enqueue_style('owlcarousel-css', get_template_directory_uri().'/assets/lib/owlcarousel/assets/owl.carousel.min.css', array(), '2.2.1', 'all');
+    wp_enqueue_style('tempusdominus-css', get_template_directory_uri().'/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css', array(), '5.1.2', 'all');
 
      // Icon Font Stylesheet
 
